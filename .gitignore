@@ -176,3 +176,12 @@ buildNumber.properties
 
 # End of https://www.gitignore.io/api/git,java,maven,eclipse,intellij
 *.iml
+
+
+# --- Project-specific (added) ---
+# Scenario data: ~7.2 GB inputs (input/basic) + ~767 GB results (input/FINAL).
+# Never commit. Transfer input/basic separately via rsync; input/FINAL is regenerable output.
+/input/
+
+# Build artifact - rebuild with: mvn clean package
+/matsim-uam-3.0.0-jar-with-dependencies.jar

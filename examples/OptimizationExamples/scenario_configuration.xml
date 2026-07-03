@@ -122,7 +122,7 @@
        <threshold_GRD_Unit_Selection>0</threshold_GRD_Unit_Selection>
 
        <!-- The criteria depend on which the access and egress vertiports and modes are chosen, possible value: time, distance, generalizedCost, cost-->
-       <access_egress_choice_criteria>time</access_egress_choice_criteria>
+       <access_egress_choice_criteria>generalizedCost</access_egress_choice_criteria>
    </scenarioSpecific>
     
   <heuristicParameters>
